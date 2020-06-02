@@ -1,0 +1,8 @@
+Para inicializar un proyecto con sequelize, luego de instalado el packete
+Se Inicia el proyecto con : `node_modules\.bin\sequelize init` el cual creará 3 carpetas;
+
+1. models: Se utiliza para tener acceso a todos los modelos que se definan. Se pueden crear con sequeliza-cli usando node_modules\.bin\sequelize 
+    model:generate --name Contact --attributes firstname:string,lastname:string,phone:string,email:string
+2. seeders: Data fake para los modelos
+3. migrations: Sirve para versionar
+4. config: un JSON con los settings acorde a la conexión con la base de datos sea production, development o test
